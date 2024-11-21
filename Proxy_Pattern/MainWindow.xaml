@@ -1,0 +1,10 @@
+﻿<Window x:Class="Proxy_Pattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Proxy Pattern Example" Height="200" Width="400">
+    <StackPanel>
+        <TextBox x:Name="RequestTextBox" Width="300" Margin="10"/>
+        <Button Content="Send Request" Click="OnSendRequestClick" Width="150" Margin="10"/>
+        <TextBlock x:Name="ResultTextBlock" Margin="10"/>
+    </StackPanel>
+</Window>
